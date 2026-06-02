@@ -10,3 +10,5 @@
     debug:
       msg: "OS Family is Debian, package manager is apt-get"
     when: ansible_facts.os_family == "Debian"
+
+# ansible_facts is special reserved variable
